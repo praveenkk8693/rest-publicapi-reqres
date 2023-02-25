@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T15:55:35 IST" name=" public api suite" finished-at="2023-02-25T15:55:39 IST" duration-ms="3815">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T15:55:35 IST" name="all types of request Testing" finished-at="2023-02-25T15:55:39 IST" duration-ms="3815">
+      <class name="rest.publicapi.calls.DeleteResources">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:rest.publicapi.calls.DeleteResources@6404f418]" started-at="2023-02-25T15:55:35 IST" name="setupReport" finished-at="2023-02-25T15:55:35 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="deleteResurcesCall()[pri:0, instance:rest.publicapi.calls.DeleteResources@6404f418]" started-at="2023-02-25T15:55:35 IST" name="deleteResurcesCall" finished-at="2023-02-25T15:55:37 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResurcesCall -->
+        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:rest.publicapi.calls.DeleteResources@6404f418]" started-at="2023-02-25T15:55:39 IST" name="generateTestReport" finished-at="2023-02-25T15:55:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReport -->
+      </class> <!-- rest.publicapi.calls.DeleteResources -->
+      <class name="rest.publicapi.calls.PutResources">
+        <test-method signature="putResourcesCall()[pri:0, instance:rest.publicapi.calls.PutResources@36916eb0]" started-at="2023-02-25T15:55:38 IST" name="putResourcesCall" finished-at="2023-02-25T15:55:39 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putResourcesCall -->
+      </class> <!-- rest.publicapi.calls.PutResources -->
+      <class name="rest.publicapi.calls.PatchResources">
+        <test-method signature="patchResourcesCall()[pri:0, instance:rest.publicapi.calls.PatchResources@550dbc7a]" started-at="2023-02-25T15:55:37 IST" name="patchResourcesCall" finished-at="2023-02-25T15:55:38 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchResourcesCall -->
+      </class> <!-- rest.publicapi.calls.PatchResources -->
+      <class name="rest.publicapi.calls.GetResources">
+        <test-method signature="getResourcesApi()[pri:0, instance:rest.publicapi.calls.GetResources@66f57048]" started-at="2023-02-25T15:55:37 IST" name="getResourcesApi" finished-at="2023-02-25T15:55:37 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResourcesApi -->
+      </class> <!-- rest.publicapi.calls.GetResources -->
+      <class name="rest.publicapi.calls.PostResponse">
+        <test-method signature="postResponseCall()[pri:0, instance:rest.publicapi.calls.PostResponse@21282ed8]" started-at="2023-02-25T15:55:38 IST" name="postResponseCall" finished-at="2023-02-25T15:55:38 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postResponseCall -->
+      </class> <!-- rest.publicapi.calls.PostResponse -->
+    </test> <!-- all types of request Testing -->
+  </suite> <!--  public api suite -->
+</testng-results>

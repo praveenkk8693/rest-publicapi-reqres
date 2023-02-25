@@ -1,6 +1,7 @@
 package rest.publicapi.calls;
 
 import org.json.simple.JSONObject;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -8,12 +9,12 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import rest.publicapi.logs.RestLogger;
-
+//@Listeners(rest.publicapi.listeners.RestTestListener.class)
 public class PutResources {
 	@Test
 	public void putResourcesCall() {
 		
-		RestLogger.getRestLogger().info("put  starting.. ");
+		RestLogger.getRestLogger(PutResources.class).info("put  starting.. ");
 		RestAssured.baseURI =  "https://reqres.in";
 		
 		RequestSpecification putReq  = RestAssured.given();

@@ -12,11 +12,16 @@ public class RestTestListener  implements ITestListener {
 	  }
 
 	public  void onTestSuccess(ITestResult result) {
-		GenerateRestExtentReport.createTest(result.getTestName());
+		
+		GenerateRestExtentReport.createTest(result.getName());
 		GenerateRestExtentReport.OnTestSuccess(result);
+		GenerateRestExtentReport.onFlush();
 	  } 
 	public  void onTestFailure(ITestResult result) {
-		GenerateRestExtentReport.createTest(result.getTestName());
+		
+		GenerateRestExtentReport.createTest(result.getName());
 		GenerateRestExtentReport.OnTestFailure(result);
+		GenerateRestExtentReport.onFlush();
 	  }
+	
 }

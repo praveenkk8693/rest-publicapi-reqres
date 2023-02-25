@@ -1,13 +1,14 @@
 package rest.publicapi.calls;
 
 import org.json.simple.JSONObject;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
+//@Listeners(rest.publicapi.listeners.RestTestListener.class)
 public class PatchResources {
 	
 	@Test
