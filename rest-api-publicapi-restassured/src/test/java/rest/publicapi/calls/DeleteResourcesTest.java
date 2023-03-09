@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 import rest.publicapi.extentreport.GenerateRestExtentReport;
 import rest.publicapi.logs.RestLogger;
 //@Listeners(rest.publicapi.listeners.RestTestListener.class)
-public class DeleteResources {
+public class DeleteResourcesTest {
 	
 	@BeforeTest
 	public void setupReport() {
@@ -27,7 +27,7 @@ public class DeleteResources {
 	@Test
 	public void deleteResurcesCall() {
 		
-		RestLogger.getRestLogger(DeleteResources.class).info("delete starting.. ");
+		RestLogger.getRestLogger(DeleteResourcesTest.class).info("delete starting.. ");
 		
 		RestAssured.baseURI="https://reqres.in";
 		

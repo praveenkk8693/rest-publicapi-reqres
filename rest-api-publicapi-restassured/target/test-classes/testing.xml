@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name=" public api suite">
+
+<listeners>
+<listener class-name="rest.publicapi.listeners.RestTestListener"/>
+</listeners>
+
+<test name="all types of request Testing">
+
+<classes>
+<class name="rest.publicapi.calls.DeleteResourcesTest"/>
+<class name="rest.publicapi.calls.GetResourcesTest"/>
+<class name="rest.publicapi.calls.PatchResourcesTest"/>
+<class name="rest.publicapi.calls.PostResponseTest"/>
+<class name="rest.publicapi.calls.PutResourcesTest"/>
+</classes>
+</test>
+
+</suite>

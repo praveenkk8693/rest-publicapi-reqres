@@ -9,7 +9,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 //@Listeners(rest.publicapi.listeners.RestTestListener.class)
-public class PatchResources {
+public class PatchResourcesTest {
 	
 	@Test
 	public void patchResourcesCall() {

@@ -12,10 +12,10 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import rest.publicapi.logs.RestLogger;
 //@Listeners(rest.publicapi.listeners.RestTestListener.class)
-public class PostResponse {
+public class PostResponseTest {
 	@Test
 	public void postResponseCall() {
-		RestLogger.getRestLogger(PostResponse.class).info("post starting.. ");
+		RestLogger.getRestLogger(PostResponseTest.class).info("post starting.. ");
 		RestAssured.baseURI="https://reqres.in";
 		
 		RequestSpecification reqObj = RestAssured.given();

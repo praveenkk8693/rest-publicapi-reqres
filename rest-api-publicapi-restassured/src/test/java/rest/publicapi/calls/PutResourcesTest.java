@@ -10,11 +10,11 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import rest.publicapi.logs.RestLogger;
 //@Listeners(rest.publicapi.listeners.RestTestListener.class)
-public class PutResources {
+public class PutResourcesTest {
 	@Test
 	public void putResourcesCall() {
 		
-		RestLogger.getRestLogger(PutResources.class).info("put  starting.. ");
+		RestLogger.getRestLogger(PutResourcesTest.class).info("put  starting.. ");
 		RestAssured.baseURI =  "https://reqres.in";
 		
 		RequestSpecification putReq  = RestAssured.given();

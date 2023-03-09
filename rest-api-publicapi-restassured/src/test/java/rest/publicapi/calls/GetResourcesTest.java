@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import rest.publicapi.logs.RestLogger;
 //@Listeners(rest.publicapi.listeners.RestTestListener.class)
-public class GetResources {
+public class GetResourcesTest {
 	
 	
 	
@@ -18,7 +18,7 @@ public class GetResources {
 	public void getResourcesApi() {
 		//path 
 		///api/users?page=2
-		Logger log=RestLogger.getRestLogger(GetResources.class);
+		Logger log=RestLogger.getRestLogger(GetResourcesTest.class);
 		log.info("getting resources call..."+System.currentTimeMillis());
 		RestAssured.baseURI="https://reqres.in";
 		
